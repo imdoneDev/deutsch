@@ -164,7 +164,7 @@ document.getElementById("b1m").addEventListener("click", function() {
   am4core.time.add(date, "month", -1);
   zoomToDates(date);
 });
-
+ 
 document.getElementById("b3m").addEventListener("click", function() {
   var max = dateAxis.groupMax["day1"];
   var date = new Date(max);
